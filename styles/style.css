@@ -40,9 +40,12 @@ header{
 
 /* Style Main section  */
 
+main{
+  background:rgba(255, 144, 14, 0.1);
+}
 .brand-container{
 padding: 100px auto;
-background:rgba(255, 144, 14, 0.1);
+
 }
 #brand-details{
   margin: 0 auto;
@@ -171,8 +174,18 @@ padding: 0% 8%;
   padding: 20px;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.306);
   Offset: 0px, 4px, 0px, 4px;
-
 }
+
+.fav-cards .card:hover{
+  background-color: #413fb4;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(40, 45, 77, 0.5);
+  box-shadow: 0.8px 12px 0 rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
 .favourite-img img{
   width: 580px;
   height: 982px;
@@ -206,6 +219,7 @@ Facts Section styles
   font-weight: 700;
   font-size: 45px;
   color: #131313;
+  text-align: center;
 }
 .fact-details{
   color: #727272;
@@ -213,6 +227,8 @@ Facts Section styles
   font-size: 16px;
   line-height: 26px;
   line-height: 139%;
+  text-align: center;
+  
 }
 .fact-cards{
   margin-top: 10%;
@@ -256,3 +272,133 @@ Facts Section styles
   color: #FFFFFF;
   cursor: pointer;
 }
+
+/* ========================
+ Styles Sponspors Section 
+======================================== */
+#sponspors-section{
+  background-color: #ffffff;
+  padding: 0% 8%;
+}
+.sponspor-info{
+  width: 540;
+  height: 130px;
+  margin: 0 auto;
+}
+.sponspor-info h2{
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  line-height: 53px;
+  line-height: 100%;
+}
+.sponspor-info p{
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 139%;
+  margin-top: 10px;
+  padding: 0px 56px;
+  text-align: center;
+}
+.sponspors-img{
+  display: flex;
+  justify-content: space-between;
+}
+.sponspors-img img{
+  width: 165.83px;
+  height: 50px;
+  filter: grayscale(100%);
+  margin-left: 0;
+}
+
+/* =====================
+styles Contract section
+==============================  */
+
+#contract-section {
+  margin-top: 80px;
+  position: relative;
+}
+
+#contract-section h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+#contract-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contract-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+}
+
+#contract-box form {
+  width: 40%;
+}
+
+#contract-box label {
+  font-size: 1.1rem;
+}
+
+.btn-sb{
+  font-weight: 50;
+  font-size: 15px;
+  color: #ffffff;
+  border: none;
+  background-color: #FF900E;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn-rs{
+  font-weight: 50;
+  font-size: 15px;
+  color: #000000;
+  border: none;
+  background-color: #ff0e0e;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: rgb(34, 5, 5);
+  width: 100%;
+  height: 200px;
+}
+
+footer h3 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+@media only screen and (max-width:576px) {
+  #features{
+    display: flex;
+    flex-direction: column;
+  }
+  .features-img{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.hide{
+  display: none;
+}
+
+
