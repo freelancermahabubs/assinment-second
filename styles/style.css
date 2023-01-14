@@ -76,6 +76,7 @@ background:rgba(255, 144, 14, 0.1);
   margin-top: 32px;
   margin-bottom: 2%;
   padding: 12px 14px;
+  cursor: pointer;
 }
 
 /* Styles Brand Image Section */
@@ -100,11 +101,11 @@ Styles Features Section
 }
 #features{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 60px;
   position: relative;
-  top: -8px;
+  top: -20px;
 }
 .features-img{
   display: grid;
@@ -129,9 +130,12 @@ Styles Features Section
   background-color: #FF900E;
   padding: 12px 14px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Styles Favorite Section */
+/* ==============
+ Styles Favorite Section
+ =============================== */
 #favorite-section{
 padding: 0% 8%;
 }
@@ -174,4 +178,81 @@ padding: 0% 8%;
   height: 982px;
   object-fit: cover;
   object-position: 12px;
+}
+.favourite-img button{
+position: relative;
+background-color: #FF900E;
+border: none;
+border-radius: 5px;
+top: -131px;
+cursor: pointer;
+left: 31px;
+padding: 30px;
+color: #FFFFFF;
+}
+.years{
+  font-weight: 700;
+  font-size: 65px;
+}
+/* ====================
+Facts Section styles 
+================================ */
+
+.facts-section{
+  background-color: #FFFFFF;
+  padding: 0% 8%;
+}
+.fact-title{
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.fact-details{
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 139%;
+}
+.fact-cards{
+  margin-top: 10%;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+}
+.fact-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 215.83px;
+  height: 220.83px;
+  border: 1px solid #FF900E;
+  border-radius: 6px;
+}
+.fact-card img{
+  width: 45.22px;
+  height: 45.22px;
+  margin: 0;
+}
+.fact-card h2{
+  font-weight: 600;
+  font-size: 25px;
+  color: #424242;
+  margin: 10px;
+}
+.fact-card p{
+  font-weight: 600;
+  font-size: 15px;
+  color: #727272;
+}
+.card-container .fact-card:hover{
+  background-color: #413fb4;
+  transition: all 0.25s ease-in;
+  transform: scale(1.05);
+  border: 1px solid rgba(40, 45, 77, 0.5);
+  box-shadow: 0.8px 12px 0 rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  cursor: pointer;
 }
