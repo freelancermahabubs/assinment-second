@@ -4,10 +4,15 @@
 
 /* Whole Body Styles */
 body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+/* This is Header Section  */
 header{
-  margin-top: 50px;
+  /* margin-top: 50px; */
+ 
 }
 .navigation-container{
   display: flex;
@@ -31,4 +36,142 @@ header{
   text-decoration: none;
   color: #424242;
   font-size: 18px;
+}
+
+/* Style Main section  */
+
+.brand-container{
+padding: 100px auto;
+background:rgba(255, 144, 14, 0.1);
+}
+#brand-details{
+  margin: 0 auto;
+  width: 862px;
+}
+#brand-details h1{
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  color: #131313;
+  line-height: 75px;
+  line-height: 100%;
+}
+#brand-details p{
+ font-size: 16px;
+ line-height: 26px;
+ line-height: 139%;
+ text-align: center;
+}
+.explor-btn{
+  text-align: center;
+  margin-left: 42%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  color: #ffffff;
+  border: none;
+  background-color: #FF900E;
+  border-radius: 5px;
+  margin-top: 32px;
+  margin-bottom: 2%;
+  padding: 12px 14px;
+}
+
+/* Styles Brand Image Section */
+.brand-img{
+  margin-bottom: 50px;
+}
+img{
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  width: 1000px;
+  height: 500px;
+}
+
+/*==============
+Styles Features Section
+ ===========================*/
+
+.feature-section{
+  background: #ffffff;
+  padding: 0% 15%;
+}
+#features{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  top: -8px;
+}
+.features-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+.features-img img{
+  width: 250px;
+  height: 230px;
+}
+.features-desc{
+  justify-content: center;
+  align-items: center;
+}
+.explors-btn{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  color: #ffffff;
+  border: none;
+  background-color: #FF900E;
+  padding: 12px 14px;
+  border-radius: 5px;
+}
+
+/* Styles Favorite Section */
+#favorite-section{
+padding: 0% 8%;
+}
+.favourites{
+  display: flex;
+}
+.favorites-des{
+  width: 586px;
+  height: 982px;
+  padding-top: 70px;
+}
+.fav-title{
+  border-left: 5px solid #FF900E;
+  font-weight: 700;
+  font-size: 45px;
+  padding-left: 12px;
+}
+.fav-desc{
+  font-size: 16px;
+  color: #727272;
+  margin: 24px 0px 30px 0px;
+}
+.fav-cards{
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  padding-left: 20px;
+  gap: 20px;
+}
+.card{
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.306);
+  Offset: 0px, 4px, 0px, 4px;
+
+}
+.favourite-img img{
+  width: 580px;
+  height: 982px;
+  object-fit: cover;
+  object-position: 12px;
 }
