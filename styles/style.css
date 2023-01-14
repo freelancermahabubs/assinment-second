@@ -1,0 +1,34 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+/* Whole Body Styles */
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+header{
+  margin-top: 50px;
+}
+.navigation-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 130px;
+}
+.nav-title{
+ color: #131313;
+ font-style: bold;
+ font-size: 25px;
+}
+.nav-element ul{
+  display: flex;
+  column-gap: 20px;
+}
+.nav-element ul li{
+  list-style: none;
+}
+.nav-element ul li a{
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+}
