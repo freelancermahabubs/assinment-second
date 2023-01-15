@@ -251,6 +251,7 @@ Facts Section styles
   width: 45.22px;
   height: 45.22px;
   margin: 0;
+  gap: 5px;
 }
 .fact-card h2{
   font-weight: 600;
